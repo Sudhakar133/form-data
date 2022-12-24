@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #959595;
+    color: #59ff00;
+    font-family: sans-serif;
+}
+
+.span {
+    font-weight: lighter;
+}
+
+button {
+    background-color: #4400ff;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: red;
+    border-color: yellow;
+}
+
+table {
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.margin {
+    margin: 3%;
+}
+
+@media screen and(min-width:567px) {
+    .modified {
+        width: 100%
+    }
+}
